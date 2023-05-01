@@ -1,3 +1,8 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 /*nav*/
 .hero {
     background-color: black;
@@ -45,5 +50,100 @@ li {
 }
 
 /*About Us*/
+.about {
+    background-color: white;
+    height: 400px;
+    margin-top: 100px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    
+    gap: 40px;
+
+}
+
+.about-container-img {
+    width: 200px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.about-text {
+    text-align: center;
+}
+
+/*Quote*/
+.quote {
+    background-color: black;
+    color: white;
+    height: 400px;
+    font-size: 30px;
+    
+}
+
+.quote-container {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 300px;
+    
+}
+
+.quote-text {
+    text-align: center;
+    
+}
+
+/*Footer*/
+.footer {
+    background-color: white;
+    color: white;
+    font-size: 20px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0 4px black;
+}
+
+.footer-container {
+    background-color: #241773;
+    height: 150px;
+    width: 1000px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#footer-header {
+    margin-bottom: -14px;
+}
 
 
+/*buttons*/
+.btn {
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btn2 {
+    background-color: #241773;
+    border: 1px white solid;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 5px;
+    box-shadow: 0 0 4px black;
+    text-shadow: 0 0 4px black;
+}
